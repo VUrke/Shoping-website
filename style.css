@@ -1,0 +1,923 @@
+@font-face{
+    font-family: "Socake";
+    src: url(dodaci/Socake.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@font-face{
+    font-family: "BobaMilky";
+    src: url(dodaci/Boba\ Milky.ttf);
+}
+
+@font-face{
+    font-family: "Akcija";
+    src: url(dodaci/Bouncy-Thin-PERSONAL_USE_ONLY.otf);
+}
+
+body{
+    margin: 0;
+}
+
+
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #e3e3e3;
+    height: 100px;
+    position: sticky;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.cont{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#header p{
+    color: #465b52;
+    font-weight: bold;
+    font-stretch: expanded;
+    float: left;
+    margin: 35px 0px;
+    font-family: Socake;
+    /* box-shadow: 0 0 1px rgba(0, 0, 0, 0.2); */
+}
+
+#header a{
+    position: static;
+    float: right;
+    font-family:BobaMilky;
+    color: #465b52;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 40px 50px 30px 0;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+#header p a{
+    font-size: 40px;
+    text-decoration: none;
+    position: relative;
+    top: -50px;
+}
+#header a:hover,#header a.active{
+    color: grey;
+    border-bottom: 4px solid #465b52;
+}
+
+
+#glavni-deo{
+    position: relative;
+    background-image: url(/images/naslovna.jpg);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    height: 800px;
+}
+
+#glavni-deo h3{
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+    color: white;
+    width: 50%;
+    line-height: 35px;
+    font-stretch: expanded;
+}
+#glavni-deo h2{
+    font-size: 70px;
+    padding-top: 45px;
+    font-weight: bold;
+    color: white;
+    font-stretch: expanded;
+}
+
+#glavni-deo button{
+    background-color: rgb(225, 57, 57);
+    border: 0;
+    color:white;
+    border-radius: 10px;
+    padding: 14px 80px 14px 65px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+}
+
+#glavni-deo button:hover{
+    color: rgb(225, 57, 57);
+    background-color: white;
+}
+
+#glavni-deo h2 span { color: #465b52; }
+#glavni-deo h3 span { color: rgb(225, 57, 57); }
+#glavni-deo h4{
+    position: relative;
+    top: -20px;
+    font-weight: bold;
+    color:  white;
+    font-size: 20px;
+    letter-spacing: 2px; 
+}
+
+#promocija{
+    height: 300px;
+    display: flex;
+    border-bottom: 1px solid lightgreen;
+    align-items: center;
+}
+
+#promocija .box:first-child{ margin-left: 100px; }
+#promocija .box:last-child{ margin-right: 100px; }
+
+#promocija .box{
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+
+#promocija .box:hover{
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+#promocija .box p{
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#promocija .box img{
+    margin-top: 10px;
+    width: 150px;
+    padding: 15px;
+    height: 120px;
+}
+
+#LetnjaKolekcija{
+    height: 850px;
+}
+
+#LetnjaKolekcija #tabela-kolekcija{
+    margin-top: 50px;
+    display: flex;
+    height: 700px;
+    width: 100%;
+    align-content: center;
+}
+
+#LetnjaKolekcija #tabela-kolekcija .box1{
+    width: 400px;
+    margin-right: 35px;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    padding: 15px;
+    height: 630px;
+    transition: 0.5s ease;
+}
+
+#LetnjaKolekcija #tabela-kolekcija .box1:hover{
+  border: 1px solid black;
+}
+
+#LetnjaKolekcija h1{
+    text-align: center;
+    font-family: Akcija;
+    font-size: 48px;
+    color: #465b52;
+}
+#LetnjaKolekcija h4{
+    text-align: center;
+}
+
+#LetnjaKolekcija #tabela-kolekcija .box1:first-child{ margin-left: 100px; }
+#LetnjaKolekcija #tabela-kolekcija .box1:last-child{ margin-right: 100px; }
+
+#LetnjaKolekcija #tabela-kolekcija .box1 img{
+    width: 330px;
+    height: 500px;
+    border-radius: 40px;
+}
+
+#LetnjaKolekcija #tabela-kolekcija h5{
+    text-align: left;
+    margin-left: 20px;
+    color: grey;
+}
+
+#LetnjaKolekcija #dugmici{
+    margin-left: 910px;
+}
+
+#LetnjaKolekcija #dugmici .active{
+    background-color: #465b52;
+    color: white;
+}
+
+#LetnjaKolekcija #dugmici button{
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: #465b52;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+#LetnjaKolekcija #tabela-kolekcija{
+    text-align: center;
+}
+
+#nove-akcije{
+    position: relative;
+    margin-top: 50px;
+    height: 170px;
+    background-image: url(images/more.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+#nove-akcije .cont h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#nove-akcije .cont p{
+    position: relative;
+    top: -30px;
+    font-family: BobaMilky;
+    color: black;
+    font-size: 25px;
+}
+
+#nove-akcije .cont #email-adresa{
+    float: right;
+    position: relative;
+    top: -110px;
+    text-align: center;
+}
+
+#nove-akcije .cont #email-adresa input{
+    border: none;
+    position: relative;
+    right: -10px;
+    color: black;
+    padding: 20px  100px 20px 400px;
+    background-color: white;
+    text-align: left;
+}
+
+
+
+#nove-akcije .cont #email-adresa button{
+    border: 1px solid grey;
+    color: white;
+    position: relative;
+    font-weight: bolder;
+    padding: 20px  25px 20px 25px;
+    background-color: rgb(35, 97, 35);
+    transition: 0.5s ease;
+    
+}
+
+#nove-akcije .cont #email-adresa button:hover{
+    background-color: white;
+    color: rgb(35, 97, 35);
+}
+
+#footer{
+    height:250px;
+    background-image: url(images/light-gray-concrete-wall.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+#footer #levi-footer{
+    float: left;
+    margin-left: 100px;
+}
+
+#footer #levi-footer p{
+    font-weight: bold;
+}
+
+#footer h2 { font-family: Akcija; font-size: 48px; margin-bottom: 5px; }
+
+#footer #levi-footer span { font-weight: normal;}
+
+#desni-footer{
+    position: relative;
+}
+
+#desni-footer img{
+    position: absolute;
+    top: 170px;
+    width: 70%;
+    height: 60px;
+}
+
+#copy{
+    text-align: center;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#glavni-deo-shop{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    background-image: url(images/shop-cover.jpg);
+    height: 400px;
+    backface-visibility: hidden;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#glavni-deo-shop h1{
+    color: rgb(171, 126, 177);
+    font-size: 50px;
+    font-family: BobaMilky;
+    margin-right: 100px;
+    position: relative;
+    left: -180px;
+    top: 110px;
+}
+
+#glavni-deo-shop p{
+    color: red;
+    font-size: large;
+    margin-right: 100px;
+}
+
+#prodavnica{
+    margin-left: 50px;
+    display: inline-flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+}
+
+#prodavnica .box2{
+    text-align: center;
+    width: 400px;
+    margin-right: 35px;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    padding: 15px;
+    height: 630px;
+    transition: 0.5s ease;
+    margin-bottom: 20px;
+}
+
+#prodavnica .box2:hover{
+    border: 1px solid black;
+}
+
+#prodavnica .box2 img{
+    width: 330px;
+    margin-top: 5px;
+    height: 500px;
+    border-radius: 40px;
+}
+
+#prodavnica .box2 button{
+    float: right;
+    cursor: pointer;
+    display: inline;
+    margin-right: 15px;
+    background-color: rgb(195, 55, 55);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+#prodavnica .box2 button:hover{
+    color: rgb(195, 55, 55);
+    background-color: white;
+}
+
+#filteri{
+    margin: 50px 50px 0px 50px;
+}
+
+#text-filter{
+    border: 2px solid #465b52;
+    padding: 5px 300px 5px 0px;
+    transition: 0.5s ease;
+    color: black;
+    margin-right: 15px;
+}
+
+#text-filter:hover{
+    background-color: lightgray;
+}
+
+#opis{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#filteri span{
+    color: #465b52;
+    font-family: Akcija;
+}
+
+#opis h6{
+    margin-left: 50px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#opis span{
+    color: hsl(154, 13%, 32%);
+    font-family: Akcija;
+    position: relative;
+    font-weight: bold;
+    font-size: 25px;
+    right: -130px;
+    bottom: -40px;
+}
+
+#opis .obicnoDugme{
+    display: block;
+    margin-bottom: 30px;
+    background-color: #465b52;
+    padding: 10px 20px;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#opis div{
+    float: right;
+}
+
+#opis div button{
+    display: block;
+    margin-bottom: 30px;
+    background-color: #465b52;
+    padding: 10px 20px;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+}
+
+#opis div button:hover{
+    background-color: lightgreen;
+    color: #465b52;
+}
+
+#opis img{
+    float: left;
+    display: inline-block;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    margin-left: 50px;
+    width: 450px;
+    height: 600px;
+}
+
+#opis div h5{
+    margin-left: 50px;
+}
+
+#opis div p{
+    margin-left: 50px;
+    font-size: 40px;
+    color: #465b52;
+
+}
+#opis .slicni-proizvodi{
+    display: inline-flex;
+    width: 600px;
+    position: relative;
+    float: left;
+    margin-top: 30px;
+}
+
+#opis .slicni-proizvodi img{
+    width: 200px;
+    height: 200px;
+    transition: 0.5s ease;
+}
+
+#opis input{
+    width: 50px;
+    position: relative;
+    top: -40px;
+    right: -190px;
+}
+
+#opis .slicni-proizvodi img:hover{
+    border: 1px solid black;
+}
+
+#opis div h2{
+    margin-left: 50px;
+}
+
+#opis div h4{
+    margin: 30px 0px 0px 50px;
+    font-family: Akcija;
+    font-weight: normal;
+}
+
+#korpa{
+    height: 500px;
+}
+
+#filteri button{
+    width: 200px;
+    cursor: pointer;
+    color: red;
+    height: 110px;
+    background-image: url(images/korpa.png);
+    border: 1px solid red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    border-radius: 40px;
+    box-shadow: 0 0 40px rgba(206, 26, 26, 0.5);
+    transition: 0.5s ease;
+}
+
+#filteri button:hover{
+    box-shadow: 0 0 100px rgba(92, 185, 26, 0.5);
+    border: 1px solid #465b52;
+}
+
+#second{
+    margin: 50px 100px;
+}
+
+#korpa-tabela{
+    border-top: 1px solid #465b52;
+    box-shadow: 0 0 40px #465b52
+}
+
+#korpa-tabela tr{
+    border-bottom: 1px solid  #465b52;
+}
+
+#korpa-tabela th{
+    font-family: Akcija;
+    padding: 20px 135px;
+    border-bottom: 1px solid #465b52;
+    box-shadow: 0 0 5px #465b52
+}
+
+#korpa-tabela td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#korpa-tabela button{
+    padding: 20px 25px;
+    background-color: #465b52;
+    border-radius: 40px;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s ease;
+}
+
+#korpa-tabela button:hover{
+    color: white;
+    background-color: red;
+}
+
+#korpa-tabela td img{
+    width: 100px;
+    border-radius: 20px;
+    height: 120px;
+}
+
+#naslovna-blog{
+    margin-top: 50px;
+    box-shadow: 0 0 45px #465b52;
+    background-image: url(images/naslovna-blog.jpg);
+    height: 300px;
+}
+
+#naslovna-blog h1{
+    color: rgb(7, 37, 136);
+    font-size: 50px;
+    font-family: BobaMilky;
+    margin-right: 100px;
+    position: relative;
+    text-transform: uppercase;
+    left: 230px;
+    top: 115px;
+}
+
+#content-blog{
+    margin: 50px 100px 200px 50px;
+    height: 500px;
+    border-radius: 30px;
+    display: block;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+#blog1 img,#blog2 img{
+    float: left;
+    margin-right: 50px;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    opacity: 95%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+#blog2 img{
+    height: 465px;
+}
+
+#blog1 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+
+#blog1 h2,#blog2 h2{
+    margin-bottom: 5px;
+    font-size: 60px;
+    margin-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+}
+
+#blog1 #blogp1,#blog2 p{
+    margin-top: 50px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+#blog1 a,#blog2 a{
+    text-decoration:none;
+    position: relative;
+    top: 35px;
+    transition: 0.5s ease;
+}
+
+#blog2 a{
+    top: 60px;
+}
+
+#blog1 a:hover,#blog2 a:hover{
+    color: red;
+}
+
+#blog2{
+    margin: 100px 50px 300px 0px;
+    height: 465px;
+    width: 100%;
+    border-radius: 30px;
+    display: block;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+#blog2 h4{
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+#second #dugmence{
+    display: block;
+    margin-bottom: 30px;
+    background-color: #465b52;
+    padding: 10px 20px;
+    margin-left: 0px;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+}
+
+#second #dugmence:hover{
+    background-color: lightgreen;
+    color: #465b52;
+}
+
+#second span{
+    position: relative;
+    left: 90px;
+    top: -60px;
+    font-family: Akcija;
+    font-size: 25px;
+    color: #465b52;
+}
+#broj-proizvoda{
+    position: relative;
+    right: -100px;
+    top: -20px;
+    color: #465b52;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+#konacna-div-korpa{
+    margin-top: 60px;
+    display: flex;
+}
+
+#konacna-div-korpa #levi-korpa,#desni-korpa{
+    width: 50%;
+}
+
+#konacna-div-korpa #levi-korpa h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #465b52;
+}
+
+#konacna-div-korpa input{
+    padding: 5px 50px;
+    border: 3px solid #465b52;
+    color: #465b52;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+#konacna-div-korpa button{
+    padding: 12px 20px;
+    margin-left: 5px;
+    background-color: #e45555;
+    border: 5px solid #e81919;
+    border-radius: 20px;
+    font-family: Akcija;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    position: relative;
+    color: #e3e3e3;
+    top: -5px;
+}
+
+#konacna-div-korpa button:hover{
+    transition: 0.5s ease;
+    border:5px solid #e45555;
+    background-color: #e81919;
+}
+
+#konacna-div-korpa #desni-korpa table{
+    border: 1px solid #465b52;
+    width: 840px;
+    color: #465b52;
+    border-radius: 40px;
+    font-size: 18px;
+}
+
+#konacna-div-korpa h2{
+    color: #465b52;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#konacna-div-korpa #desni-korpa table tr{
+    text-align: left;
+    font-family: BobaMilky;
+}
+
+#konacna-div-korpa #desni-korpa table tr td, #konacna-div-korpa #desni-korpa table tr th{
+    font-family: BobaMilky;
+    padding-left: 20px;
+}
+
+#naslovna{
+    background-image: url(images/naslovna-about.jpg);
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: 100%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    background-position: center;
+}
+
+#naslovna p{
+    color: #465b52;
+    font-size: 50px;
+    text-align: center;
+    font-family: BobaMilky;
+    margin-right: 100px;
+    position: relative;
+    text-transform: uppercase;
+    left: -175px;
+    top: 205px;
+}
+
+#stranica-info{
+    height: 600px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+
+}
+
+#stranica-info img{
+    float: left;
+    margin-right: 50px;
+    margin-left: 100px;
+    width: 900px;
+}
+
+#stranica-info h1{
+    position: relative;
+    top: 70px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: Akcija;
+}
+
+#stranica-info p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+#kontakt-div{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    margin: 100px;
+}
+
+#kontakt-div iframe{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+#kontakt-div #desni{
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 150px;
+}
+
+#kontakt-div #levi{
+    width: 50%;
+    margin-top: 50px;
+}
+
+#kontakt-naslovna{
+    margin-top: 50px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    background-image: url(images/kontakt-naslovna.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#kontakt-naslovna p{
+    color: #080914;
+    font-size: 70px;
+    text-align: center;
+    font-family: BobaMilky;
+    margin-right: 100px;
+    position: relative;
+    text-transform: uppercase;
+    left: -175px;
+    top: 145px;
+}
+
+#kontakt-div #levi h2{
+    margin-top: 0px;
+    color: #465b52;
+    font-family: Akcija;
+    font-size: 40px;
+}
+
+#kontakt-div #levi h4{
+    font-family: Akcija;
+    font-weight: normal;
+    font-size: 20px;
+    color: #465b52;
+}
+
+#kontakt-div #levi span{
+    padding-left: 25px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0b1d15;
+    
+}

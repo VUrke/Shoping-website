@@ -1,0 +1,135 @@
+<proizvodi>
+  <proizvod>
+    <tip>majca</tip>
+    <ime>TEKSTURISANA MAJICA KRATKIH RUKAVA S PRINTOM </ime>
+    <marka>Polo</marka>
+    <cena>1690</cena>
+    <slika>images/majca1.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>majca</tip>
+    <ime> MAJICA KRATKIH RUKAVA SA DEZENOM </ime>
+    <marka>Polo</marka>
+    <cena>1690</cena>
+    <slika>images/majca2.jpg</slika>
+  </proizvod>
+  <proizvod>KUPI ODMAH !
+    <tip>majca</tip>
+    <ime> MAJICA KRATKIH RUKAVA S VEZOM </ime>
+    <marka>Nike</marka>
+    <cena>1990</cena>
+    <slika>images/majca3.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>majca</tip>
+    <ime>PRUGASTA MAJICA S KORNJAČOM</ime>
+    <marka>Nike</marka>
+    <cena>2100</cena>
+    <slika>images/majca4.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>majca</tip>
+    <ime>MAJICA KRATKIH RUKAVA S FOTOGRAFIJOM </ime>
+    <marka>Adidas</marka>
+    <cena>2100</cena>
+    <slika>images/majca5.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>majca</tip>
+    <ime>ISPRANA MAJICA AC/DC HIGHWAY TO HELL</ime>
+    <marka>Adidas</marka>
+    <cena>2380</cena>
+    <slika>images/majca6.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>majca</tip>
+    <ime> MAJICA ELTON JOHN </ime>
+    <marka>Adidas</marka>
+    <cena>2480</cena>
+    <slika>images/majca7.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>majca</tip>
+    <ime> MAJICA LOONEY TUNES MASHUPS WARNER 100. GODIŠNJICA  </ime>
+    <marka>Adidas</marka>
+    <cena>2980</cena>
+    <slika>images/majca8.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>farmerice</tip>
+    <ime>FARMERKE UDOBNOG SLIM KROJA </ime>
+    <marka>Levis</marka>
+    <cena>3300</cena>
+    <slika>images/farke1.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>farmerice</tip>
+    <ime>FARMERKE VREĆASTOG KROJA </ime>
+    <marka>Levis</marka>
+    <cena>3300</cena>
+    <slika>images/farke2.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>farmerice</tip>
+    <ime>BASIC FARMERKE RAVNOG KROJA </ime>
+    <marka>Levis</marka>
+    <cena>3300</cena>
+    <slika>images/farke3.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>farmerice</tip>
+    <ime>BASIC FARMERKE STANDARDNOG KROJA S PODEROTINAMA </ime>
+    <marka>Levis</marka>
+    <cena>3300</cena>
+    <slika>images/farke4.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>farmerice</tip>
+    <ime> BASIC FARMERKE RAVNOG KROJA  </ime>
+    <marka>Levis</marka>
+    <cena>3390</cena>
+    <slika>images/farke5.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>farmerice</tip>
+    <ime>  FARMERKE RAVNOG KROJA   </ime>
+    <marka>Levis</marka>
+    <cena>3390</cena>
+    <slika>images/farke6.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>kosulja</tip>
+    <ime>  FARMERKE TAPERED FIT  </ime>
+    <marka>Levis</marka>
+    <cena>3600</cena>
+    <slika>images/farke7.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>kosulja</tip>
+    <ime> KOŠULJA KRATKIH RUKAVA SA DEZENOM </ime>
+    <marka>Hugo Boss</marka>
+    <cena>3600</cena>
+    <slika>images/kosulja2.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>kosulja</tip>
+    <ime> KOŠULJA KRATKIH RUKAVA S DEZENOM STWD  </ime>
+    <marka>Hugo Boss</marka>
+    <cena>3600</cena>
+    <slika>images/kosulja3.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>kosulja</tip>
+    <ime> RUSTIČNA KOŠULJA KRATKIH RUKAVA  </ime>
+    <marka>Hugo Boss</marka>
+    <cena>4700</cena>
+    <slika>images/kosulja4.jpg</slika>
+  </proizvod>
+  <proizvod>
+    <tip>kosulja</tip>
+    <ime> IZVEZENA PIDŽAMA-KOŠULJA KRATKIH RUKAVA  </ime>
+    <marka>Hugo Boss</marka>
+    <cena>4700</cena>
+    <slika>images/kosulja5.jpg</slika>
+  </proizvod>
+</proizvodi>

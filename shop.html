@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/UV.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <script src="script-shop.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Utopia Fashion</title>
+</head>
+
+<body onload="ucitajXML()">
+    <div id="proba"></div>
+    <div id="header">
+        <div class="cont">
+            <p><a href="#proba">Utopia Fashion</a></p>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="shop.html" class="active">Shop</a>
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+
+    <div id="glavni-deo-shop">
+        <h1>#otkrijte izvanrednu ponudu !</h1>
+        <p>POPUSTI DO 70%</p>
+    </div>
+    <div>
+    </div>
+    <div id="second" style="display: none;">
+        <button id="dugmence" onclick="vratiNaProdavnicu()">&lt;--</button>
+        <span>VRATI SE UNAZAD</span>
+        <table id="korpa-tabela"></table>
+        <div id="konacna-div-korpa">
+            <div id="levi-korpa">
+                <h2>Iskoristi kupon za 5% popusta</h2>
+                <input type="text" name="" id="kupon-text">
+                <button onclick="iskoristiKupon()">Iskoristi</button>
+            </div>
+            <div id="desni-korpa">
+                <h2>Ukupan Trosak : </h2>
+                <table>
+                    <tr>
+                        <td>Trosak u korpi :</td>
+                        <td><p id="cena-racuna">RSD </p></td>
+                    </tr>
+                    <tr>
+                        <td>Shipping :</td>
+                        <td>Besplatan</td>
+                    </tr>
+                    <tr>
+                        <th>Ukupan trosak :</th>
+                        <th><p id="cena-racuna1">RSD </p></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <div id="first">
+        <div id="filteri">
+            <span>Unesite naziv proizvoda : </span>
+            <input type="text" id="text-filter" onkeyup="popuniShop()">
+            <span>Tip proizvoda : </span>
+            <select style="margin-right: 15px;" id="tip_proizvoda" onchange="popuniShop()">
+                <option value="sve">Sve</option>
+            </select>
+            <span>Marka proizvoda : </span>
+            <select name="" id="marka" onchange="popuniShop()">
+                <option value="sve">Sve</option>
+            </select>
+            <strong id="broj-proizvoda">0</strong>
+            <button onclick="prikaziKorpu()"></button>
+        </div>
+        <div id="opis"></div>
+        <div id="prodavnica">
+        </div>
+    </div>
+    
+    <div id="footer">
+        <div id="levi-footer">
+            <h2>Utopia Fashion</h2>
+            <p style="text-decoration: underline;">Kontakt</p>
+            <p>Adresa: <span>Radoja Domanovica 1 </span></p>
+            <p>Telefon: <span>+381 123-456-72</span></p>
+            <p>Radno Vreme: <span>10:00 - 18:00 Pon-Sub</span></p>
+        </div>
+        <div id="desni-footer">
+            <img src="images/placanje.png" alt="">
+        </div>
+    </div>
+    <div id="copy">&copy;2023 www.utopiafashion.rs izrada UrosVujanac - Sva prava zadrzana.</div>
+
+</body>
+</html>

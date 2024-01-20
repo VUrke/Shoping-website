@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/UV.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Utopia Fashion</title>
+</head>
+
+<body onload="ucitajXML()">
+    <div id="proba"></div>
+    <div id="header">
+        <div class="cont">
+            <p><a href="#proba">Utopia Fashion</a></p>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="shop.html">Shop</a>
+            <a href="index.html" class="active">Home</a>
+        </div>
+    </div>
+
+    <div id="glavni-deo">
+        <div class="cont">
+            <h2>Otkrijte najnovije <span>trendove</span> i stvorite svoj <span>jedinstveni stil</span>.</p>
+            <h3>Vaša modna avantura počinje ovde   <span>ne propustite uzbudljive akcije</span> i istražite našu kolekciju odmah!</p>
+            <h4>Uz kupone i velike popuste do savrsene cene !</h4>
+            <button>KUPI ODMAH !</button>
+        </div>
+    </div>
+
+    <div id="promocija">
+        <div class="box">
+            <img src="images/isporuka.png" alt="">
+            <p  >Besplatna postarina</p>
+        </div>
+        <div class="box">
+            <img src="images/online.png" alt="">
+            <p>Online narucivanje</p>
+        </div>
+        <div class="box">
+            <img src="images/pomoc.png" alt="">
+            <p>Tehnicka pomoc 24/7</p>
+        </div>
+        <div class="box">
+            <img src="images/svet.png" alt="">
+            <p>WorldWide</p>
+        </div>
+        <div class="box">
+            <img src="images/svinja.png" alt="">
+            <p>Ustedi novac sa nama</p>
+        </div>
+        <div class="box">
+            <img src="images/popustslika.png" alt="">
+            <p>Stalne akcije</p>
+        </div>
+    </div>
+
+    <div id="LetnjaKolekcija">
+        <h1>✳ Najnovija kolekcija ✳</h1>
+        <h4>Isprobajte našu najnoviju kolekciju za letnju sezonu i osvojite sve poglede svojim svežim i stilizovanim izdanjem!</h4>
+        <div id="tabela-kolekcija"></div>
+        <div id="dugmici">
+            <button id="dugme1" class="active" onclick="popuniTabeluMenu()">1</button>
+            <button id="dugme2" onclick="popuniTabeluMenu1()">2</button>
+        </div>
+    </div>
+    
+    <div id="nove-akcije">
+        <div class="cont">
+            <br>
+            <h1>Prijavi se za NewsLetters</h1>
+            <p>Dobices E-mail o najnovijim kolekcijama i <span style="color: red;">popustima</span>.</p>
+            <div id="email-adresa">
+                <input type="email" value="Tvoj email adresa...">
+                <button>Prijavi se</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="levi-footer">
+            <h2>Utopia Fashion</h2>
+            <p style="text-decoration: underline;">Kontakt</p>
+            <p>Adresa: <span>Radoja Domanovica 1 </span></p>
+            <p>Telefon: <span>+381 123-456-72</span></p>
+            <p>Radno Vreme: <span>10:00 - 18:00 Pon-Sub</span></p>
+        </div>
+        <div id="desni-footer">
+            <img src="images/placanje.png" alt="">
+        </div>
+    </div>
+    <div id="copy">&copy;2023 www.utopiafashion.rs izrada UrosVujanac - Sva prava zadrzana.</div>
+
+</body>
+</html>
